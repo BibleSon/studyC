@@ -1,0 +1,6 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=61143B5D
+eax=610073E0 ebx=0022ABF8 ecx=00000001 edx=00000005 esi=0022983C edi=61192CD0
+ebp=00000001 esp=00229680 program=C:\cygwin\home\BibleSon\studyC\bibleson\algospot\drawrect.exe, pid 5368, thread main
+cs=001B ds=0023 es=0023 fs=003B gs=0000 ss=0023
+Stack trace:
+Frame     Function  Args

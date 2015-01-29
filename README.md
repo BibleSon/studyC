@@ -1,3 +1,3 @@
 # studyC
 
-BibleSon
+JakeYoon

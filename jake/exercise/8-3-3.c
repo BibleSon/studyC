@@ -10,8 +10,9 @@ double user_abs(double n)
 
 double user_pow(double base, int exp)
 {
+    int i;
     double result = 1;
-    while(exp--)
+    for (i = 0; i < exp; i++)
     {
         result *= base;
     }

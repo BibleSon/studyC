@@ -1,0 +1,6 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=61143B5D
+eax=61209B80 ebx=0022AB30 ecx=00000003 edx=00000348 esi=0022976E edi=61192CD0
+ebp=0000000E esp=002295B0 program=C:\cygwin\home\BibleSon\studyC\bibleson\exercise\17-4.exe, pid 1948, thread main
+cs=001B ds=0023 es=0023 fs=003B gs=0000 ss=0023
+Stack trace:
+Frame     Function  Args

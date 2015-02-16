@@ -6,7 +6,7 @@ int main(void)
 	h = (t / 60) / 60;
 	m = (t / 60) % 60;
 	s = t % 60;
-	printf("%dì´ˆëŠ” %dì‹œê°„, %dë¶„, %dì´ˆì…ë‹ˆë‹¤.\n", t, h, m, s);
+	printf("%dÃÊ´Â %d½Ã°£, %dºĞ, %dÃÊÀÔ´Ï´Ù.\n", t, h, m, s);
 	return 0;
 }
 

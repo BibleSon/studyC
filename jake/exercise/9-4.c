@@ -13,7 +13,7 @@ int main(void)
             break;
     }
 
-    printf("ë³µì‚¬ëœ ë¬¸ìì—´ : %s\n", str2);
+    printf("º¹»çµÈ ¹®ÀÚ¿­ : %s\n", str2);
     return 0;
 }
 

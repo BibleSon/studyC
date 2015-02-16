@@ -1,23 +1,24 @@
 #include <stdio.h>
 int main(void)
 {
-	char num;
-	char name[20];
-	char position[20];
-	double bat;
-	int age;
-	
-	printf("ë“±ë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
-	scanf("%c", &num);
-	printf("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš” : ");
-	scanf("%s", name);
-	printf("í¬ì§€ì…˜ì„ ì…ë ¥í•˜ì„¸ìš” : ");
-	scanf("%s", position);
-	printf("íƒ€ìœ¨ì„ ì…ë ¥í•˜ì„¸ìš” : ");
-	scanf("%lf", &bat);
-	printf("ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
-	scanf("%d", &age);
-	printf("%cë²ˆ-%s-%s, íƒ€ìœ¨ì€ %lfì´ê³  ë‚˜ì´ëŠ” %dì‚´ì…ë‹ˆë‹¤.\n", num, name, position, bat, age);
-	return 0;
+    char num;
+    char name[20];
+    char position[20];
+    double bat;
+    int age;
+
+
+    printf("µî¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+    scanf("%c", &num);
+    printf("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä : ");
+    scanf("%s", name);
+    printf("Æ÷Áö¼ÇÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+    scanf("%s", position);
+    printf("Å¸À²À» ÀÔ·ÂÇÏ¼¼¿ä : ");
+    scanf("%lf", &bat);
+    printf("³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+    scanf("%d", &age);
+    printf("%c¹ø-%s-%s, Å¸À²Àº %lfÀÌ°í ³ªÀÌ´Â %d»ìÀÔ´Ï´Ù.\n", num, name, position, bat, age);
+    return 0;
 }
 

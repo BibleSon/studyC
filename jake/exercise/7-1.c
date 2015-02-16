@@ -5,15 +5,14 @@ int main(void)
     int n = 1;
     int sum = 0;
     while(1) {
-        printf("ì–‘ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ");
+        printf("¾ç¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
         scanf("%d", &n);
-        
+
         if (n < 0) {
             break;
         }
         sum += n;
-        printf("ì§€ê¸ˆê¹Œì§€ ìž…ë ¥ëœ ê°’ì˜ í•© : %d\n", sum);
+        printf("Áö±Ý±îÁö ÀÔ·ÂµÈ °ªÀÇ ÇÕ : %d\n", sum);
     }
     return 0;
 }
-

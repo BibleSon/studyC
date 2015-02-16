@@ -4,15 +4,14 @@ int main(void)
 {
     char str[1000];
     int i;
-    printf("ë‹¨ì–´ë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ");
+    printf("´Ü¾î¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%s", str);
-    
+
     for (i = 0; i < 1000; i++){
         if (str[i] == '\0')
             break;
     }
 
-    printf("%së‹¨ì–´ì˜ ê¸¸ì´ëŠ” %dìžìž…ë‹ˆë‹¤.\n", str, i);
+    printf("%s´Ü¾îÀÇ ±æÀÌ´Â %dÀÚÀÔ´Ï´Ù.\n", str, i);
     return 0;
 }
-

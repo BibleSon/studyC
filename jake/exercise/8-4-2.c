@@ -3,14 +3,13 @@
 double div()
 {
     double a, b;
-    printf("ë‘ ê°œì˜ ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("µÎ °³ÀÇ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf%lf", &a, &b);
     return a / b;
 }
 
 int main(void)
 {
-    printf("ë‚˜ëˆ—ì…ˆ ê²°ê³¼ëŠ” : %lf\n", div());
+    printf("³ª´°¼À °á°ú´Â : %lf\n", div());
     return 0;
 }
-

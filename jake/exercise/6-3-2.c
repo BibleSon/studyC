@@ -2,21 +2,15 @@
 
 int main(void)
 {
-    int year;
-    printf("ì—°ë„ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
-    scanf("%d", &year);
-    if (year % 4 == 0) {
-        if (year % 100 == 0) {
-            if (year % 400 == 0) {
-                printf("ìœ¤ë…„ì…ë‹ˆë‹¤.\n");
-            } else {
-                printf("í‰ë…„ì…ë‹ˆë‹¤.\n");
-            }
-        } else {
-            printf("ìœ¤ë…„ì…ë‹ˆë‹¤.\n");
-        }
+    char ch;
+    printf("¹®ÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+    scanf("%c", &ch);
+    if (ch == 'm') {
+        printf("³²ÀÚÀÔ´Ï´Ù.\n");
+    } else if (ch == 'f') {
+        printf("¿©ÀÚÀÔ´Ï´Ù.\n");
     } else {
-        printf("í‰ë…„ì…ë‹ˆë‹¤.\n");
+        printf("Àß¸ø ÀÔ·ÂÇÏ¿´½À´Ï´Ù.\n");
     }
     return 0;
 }

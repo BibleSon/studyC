@@ -22,9 +22,9 @@ double user_pow(double base, int exp)
 int main(void)
 {
     double x;
-    printf("xì˜ ê°’ì„ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("xÀÇ °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf", &x);
-    printf("ê²°ê³¼ê°’ì€ %lfì…ë‹ˆë‹¤.\n", user_abs(2*user_pow(x, 3) + 3*user_pow(x,2) + 4));
+    printf("°á°ú°ªÀº %lfÀÔ´Ï´Ù.\n", user_abs(2*user_pow(x, 3) + 3*user_pow(x,2) + 4));
     return 0;
 }
 

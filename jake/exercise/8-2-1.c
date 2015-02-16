@@ -8,8 +8,8 @@ double multi(double a, double b)
 int main(void)
 {
     double a, b;
-    printf("ë‘ ê°œì˜ ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("µÎ °³ÀÇ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf%lf", &a, &b);
-    printf("ë‘ ìˆ˜ì˜ ê³±ì€ : %.1lf\n", multi(a, b));
+    printf("µÎ ¼öÀÇ °öÀº : %.1lf\n", multi(a, b));
     return 0;
 }

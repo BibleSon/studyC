@@ -8,7 +8,7 @@ int main(void)
     double kwperfee;
     double tax;
 
-    printf("ì½”ë“œë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš”(1ê°€ì •ìš©, 2ì‚°ì—…ìš©, 3êµìœ¡ìš©) : ");
+    printf("ÄÚµå¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä(1°¡Á¤¿ë, 2»ê¾÷¿ë, 3±³À°¿ë) : ");
     scanf("%c", &code);
     switch (code)
     {
@@ -28,8 +28,8 @@ int main(void)
             tax = 0.05;
             break;
     }
-    printf("ì „ê¸° ì‚¬ìš©ëŸ‰ì„ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("Àü±â »ç¿ë·®À» ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf", &usage);
-    printf("ì „ê¸°ìš”ê¸ˆì€ %dì›ì…ë‹ˆë‹¤.\n", (int)((base + (usage * kwperfee)) * (1 + tax)));
+    printf("Àü±â¿ä±İÀº %d¿øÀÔ´Ï´Ù.\n", (int)((base + (usage * kwperfee)) * (1 + tax)));
     return 0;
 }

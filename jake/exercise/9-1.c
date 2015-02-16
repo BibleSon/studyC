@@ -5,7 +5,7 @@ int main(void)
     int arr[5];
     int max;
     int i;
-    printf("ë‹¤ì„¯ ê°œì˜ ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("´Ù¼¸ °³ÀÇ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
 
     for (i = 0; i < 5; i++)
     {
@@ -21,7 +21,7 @@ int main(void)
     }
 
 
-    printf("ê°€ì¥ í° ê°’ì€ : %dì…ë‹ˆë‹¤.\n", max);
+    printf("°¡Àå Å« °ªÀº : %dÀÔ´Ï´Ù.\n", max);
     return 0;
 }
 

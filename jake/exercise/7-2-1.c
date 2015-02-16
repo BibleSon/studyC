@@ -8,7 +8,6 @@ int main(void)
         if (i % 2 == 1)
             sum += i;
     }
-    printf("1ë¶€í„° 100ê¹Œì§€ í™€ìˆ˜ì˜ í•©ì€ : %d\n", sum);
+    printf("1ºÎÅÍ 100±îÁö È¦¼öÀÇ ÇÕÀº : %d\n", sum);
     return 0;
 }
-

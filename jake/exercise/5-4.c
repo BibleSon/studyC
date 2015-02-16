@@ -3,10 +3,10 @@
 int main(void)
 {
     double w, h;
-    printf("ëª¸ë¬´ê²Œë¥¼ ì…ë ¥í•˜ì„¸ìš”(kg) : ");
+    printf("¸ö¹«°Ô¸¦ ÀÔ·ÂÇÏ¼¼¿ä(kg) : ");
     scanf("%lf", &w);
-    printf("í‚¤ë¥¼ ì…ë ¥í•˜ì„¸ìš”(m) : ");
+    printf("Å°¸¦ ÀÔ·ÂÇÏ¼¼¿ä(m) : ");
     scanf("%lf", &h);
-    printf("ë‹¹ì‹ ì˜ BMIëŠ” : %.1fì…ë‹ˆë‹¤.\n", w / (h*h));
+    printf("´ç½ÅÀÇ BMI´Â : %.1fÀÔ´Ï´Ù.\n", w / (h*h));
     return 0;
 }

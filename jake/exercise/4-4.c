@@ -4,11 +4,11 @@ int main(void)
 {
     int dist, speed;
     double t;
-    printf("ê±°ë¦¬ì™€ ì†ë ¥ì„ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("°Å¸®¿Í ¼Ó·ÂÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%d%d", &dist, &speed);
     t = ((dist * 1.0f) / speed);
-   // printf("%dì‹œê°„ ê±¸ë¦¬ê³  %d(km)ê°€ ë‚¨ìŠµë‹ˆë‹¤.\n", dist / speed, dist % speed);
-    printf("ê±¸ë¦¬ëŠ” ì‹œê°„ì€ : %dì‹œê°„, %dë¶„, %.3fì´ˆì…ë‹ˆë‹¤. \n", 
+    // printf("%d½Ã°£ °É¸®°í %d(km)°¡ ³²½À´Ï´Ù.\n", dist / speed, dist % speed);
+    printf("°É¸®´Â ½Ã°£Àº : %d½Ã°£, %dºĞ, %.3fÃÊÀÔ´Ï´Ù. \n", 
             (int)t, 
             (int)(t * 60 - (int)t * 60), 
             (t * 60 * 60) - (int)(t * 60) * 60);

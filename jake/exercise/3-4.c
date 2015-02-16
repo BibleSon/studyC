@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main(void)
 {
-	int history, literature, artistic;
-	int sum;
-	printf("ì—­ì‚¬, ë¬¸í•™, ì˜ˆëŠ¥ ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
-	scanf("%d%d%d", &history, &literature, &artistic);
-	sum = history + literature + artistic;
-	printf("ì´ì ì€ %dì´ê³  í‰ê· ì€ %lfì…ë‹ˆë‹¤.\n", sum, sum / 3.0);
-	return 0;
+    int history, literature, artistic;
+    int sum;
+    printf("¿ª»ç, ¹®ÇĞ, ¿¹´É Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+    scanf("%d%d%d", &history, &literature, &artistic);
+    sum = history + literature + artistic;
+    printf("ÃÑÁ¡Àº %dÀÌ°í Æò±ÕÀº %lfÀÔ´Ï´Ù.\n", sum, sum / 3.0);
+    return 0;
 }
 

@@ -6,35 +6,35 @@ int main(void)
     int weight;
     int height;
     double bmi;
-    printf("ì„±ë³„ì„ ì…ë ¥í•˜ì„¸ìš”(m/f) : ");
+    printf("¼ºº°À» ÀÔ·ÂÇÏ¼¼¿ä(m/f) : ");
     scanf("%c", &gender);
-    printf("ëª¸ë¬´ê²Œë¥¼ ì…ë ¥í•˜ì„¸ìš”(kg) : ");
+    printf("¸ö¹«°Ô¸¦ ÀÔ·ÂÇÏ¼¼¿ä(kg) : ");
     scanf("%d", &weight);
-    printf("í‚¤ë¥¼ ì…ë ¥í•˜ì„¸ìš”(cm) : ");
+    printf("Å°¸¦ ÀÔ·ÂÇÏ¼¼¿ä(cm) : ");
     scanf("%d", &height);
-    
+
     bmi = weight / ((height / 100.0f) * (height / 100.0f));
 
-    printf("ë‹¹ì‹ ì˜ BMIëŠ” : %.1fì…ë‹ˆë‹¤.\n", bmi);
+    printf("´ç½ÅÀÇ BMI´Â : %.1fÀÔ´Ï´Ù.\n", bmi);
     if (gender == 'm')
     {
         if (bmi < 20.0f) {
-            printf("ì €ì²´ì¤‘ì…ë‹ˆë‹¤.\n");
+            printf("ÀúÃ¼ÁßÀÔ´Ï´Ù.\n");
         } else if (bmi < 25.0f) {
-            printf("í‘œì¤€ì²´ì¤‘ì…ë‹ˆë‹¤.\n");
+            printf("Ç¥ÁØÃ¼ÁßÀÔ´Ï´Ù.\n");
         } else {
-            printf("ê³¼ì²´ì¤‘ì…ë‹ˆë‹¤.\n");
+            printf("°úÃ¼ÁßÀÔ´Ï´Ù.\n");
         }
     } else if (gender == 'f')
     {
         if (bmi < 18.5f) {
-            printf("ì €ì²´ì¤‘ì…ë‹ˆë‹¤.\n");
+            printf("ÀúÃ¼ÁßÀÔ´Ï´Ù.\n");
         } else if (bmi < 25.0f) {
-            printf("í‘œì¤€ì²´ì¤‘ì…ë‹ˆë‹¤.\n");
+            printf("Ç¥ÁØÃ¼ÁßÀÔ´Ï´Ù.\n");
         } else {
-            printf("ê³¼ì²´ì¤‘ì…ë‹ˆë‹¤.\n");
+            printf("°úÃ¼ÁßÀÔ´Ï´Ù.\n");
         }
     }
-    
+
     return 0;
 }

@@ -5,9 +5,9 @@ double user_abs(double n);
 int main(void)
 {
     double n;
-    printf("ìˆ«ì í•˜ë‚˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("¼ıÀÚ ÇÏ³ª¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf", &n);
-    printf("ì ˆëŒ€ê°’ì€ %lfì…ë‹ˆë‹¤.\n", user_abs(n));
+    printf("Àı´ë°ªÀº %lfÀÔ´Ï´Ù.\n", user_abs(n));
     return 0;
 }
 

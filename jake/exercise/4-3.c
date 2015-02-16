@@ -4,10 +4,10 @@ int main(void)
 {
     unsigned int age;
     unsigned int t;
-    printf("ëª‡ ì‚´ê¹Œì§€ ì‚´ê³  ì‹¶ìŠµë‹ˆê¹Œ? ");
+    printf("¸î »ì±îÁö »ì°í ½Í½À´Ï±î? ");
     scanf("%u", &age);
-    
-    printf("%uì¼, %uì‹œê°„, %uë¶„, %uì´ˆì…ë‹ˆë‹¤.\n", age * 365, age * 365 * 24, age * 365 * 24 * 60, age * 365 * 24 * 60 * 60);
+
+    printf("%uÀÏ, %u½Ã°£, %uºĞ, %uÃÊÀÔ´Ï´Ù.\n", age * 365, age * 365 * 24, age * 365 * 24 * 60, age * 365 * 24 * 60 * 60);
     return 0;
 }
 

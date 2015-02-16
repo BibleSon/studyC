@@ -7,8 +7,8 @@ int main(int argc, char **argv)
     int count;
 
     if(argc<3){
-        printf("í”„ë¡œê·¸ëž¨ ì‚¬ìš©ë²• ì˜¤ë¥˜ìž…ë‹ˆë‹¤.\n");
-        printf("ì‚¬ìš©ë²• : string_print ë¬¸ìžì—´ ë°˜ë³µíšŸìˆ˜\n");
+        printf("ÇÁ·Î±×·¥ »ç¿ë¹ý ¿À·ùÀÔ´Ï´Ù.\n");
+        printf("»ç¿ë¹ý : string_print ¹®ÀÚ¿­ ¹Ýº¹È½¼ö\n");
         return 0;
     }
     count = atoi(argv[2]);

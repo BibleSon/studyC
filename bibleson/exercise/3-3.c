@@ -2,23 +2,23 @@
 
 int main()
 {
-	char number;
-	char name[100];
-	char position[100];
-	double hit;
-	int age;
+    char number;
+    char name[100];
+    char position[100];
+    double hit;
+    int age;
 
-	printf("ë“±ë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš” :");
-	scanf("%c",&number);
-	printf("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš” :");
-	scanf("%s",name);
-	printf("í¬ì§€ì…˜ì„ ì…ë ¥í•˜ì„¸ìš” :");
-	scanf("%s",position);
-	printf("íƒ€ìœ¨ì„ ì…ë ¥í•˜ì„¸ìš” :");
-	scanf("%lf",&hit);
-	printf("ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš” :");
-	scanf("%d",&age);
-	printf("%cë²ˆ-%s-%s, íƒ€ìœ¨ì€ %lfì´ê³  ë‚˜ì´ëŠ” %dì‚´ì…ë‹ˆë‹¤.",number,name,position,hit,age);
+    printf("µî¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
+    scanf("%c",&number);
+    printf("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä :");
+    scanf("%s",name);
+    printf("Æ÷Áö¼ÇÀ» ÀÔ·ÂÇÏ¼¼¿ä :");
+    scanf("%s",position);
+    printf("Å¸À²À» ÀÔ·ÂÇÏ¼¼¿ä :");
+    scanf("%lf",&hit);
+    printf("³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
+    scanf("%d",&age);
+    printf("%c¹ø-%s-%s, Å¸À²Àº %lfÀÌ°í ³ªÀÌ´Â %d»ìÀÔ´Ï´Ù.",number,name,position,hit,age);
 
-	return 0;
+    return 0;
 }

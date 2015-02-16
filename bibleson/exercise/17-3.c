@@ -6,11 +6,11 @@ struct student func(struct student s1);
 
 int main()
 {
-    struct student st = {315,"í™ê¸¸ë™",{82,93,74,90,65}};
+    struct student st = {315,"È«±æµ¿",{82,93,74,90,65}};
 
     st = func(st);
 
-    printf("\ní‰ê·  : %.1lf",st.avg);
+    printf("\nÆò±Õ : %.1lf",st.avg);
 
     return 0;
 }
@@ -20,8 +20,8 @@ struct student func(struct student s1)
     int i;
     double temp = 0;
 
-    printf("í•™ë²ˆ : %d\nì´ë¦„ : %s\n", s1.num, s1.name);
-    printf("ì ìˆ˜ :");
+    printf("ÇĞ¹ø : %d\nÀÌ¸§ : %s\n", s1.num, s1.name);
+    printf("Á¡¼ö :");
     for(i=0;i<5;i++){
         printf("%5d",s1.score[i]);
         temp += s1.score[i];

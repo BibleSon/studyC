@@ -11,9 +11,7 @@ int main()
         total = total + num;
         num = num + 2;
     }
-    printf("1ë¶€í„° 100ê¹Œì§€ í™€ìˆ˜ì˜ í•©ì€ : %d",total);
+    printf("1ºÎÅÍ 100±îÁö È¦¼öÀÇ ÇÕÀº : %d",total);
 
     return 0;
 }
-
-

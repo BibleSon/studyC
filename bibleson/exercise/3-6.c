@@ -15,6 +15,6 @@ int main()
 	hour = g3%24;
 	day = g3/24;
 
-	printf("1ë…„ì€ %dì¼, %dì‹œê°„, %dë¶„, %dì´ˆì…ë‹ˆë‹¤.",day,hour,min,sec);
+    printf("1³âÀº %dÀÏ, %d½Ã°£, %dºĞ, %dÃÊÀÔ´Ï´Ù.",day,hour,min,sec);
 	return 0;
 }

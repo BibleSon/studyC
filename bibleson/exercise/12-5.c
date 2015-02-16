@@ -7,17 +7,16 @@ int main()
     char first_name[20] = {0};
     char full_name[50] = {0};
 
-    printf("ì„±ì„ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("¼ºÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%s",last_name);
     strcat(full_name,last_name);
 
-    printf("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%s",first_name);
     strcat(full_name," ");
     strcat(full_name,first_name);
 
-    printf("ì„±ì„ í¬í•¨í•œ ì´ë¦„ : %s", full_name);
+    printf("¼ºÀ» Æ÷ÇÔÇÑ ÀÌ¸§ : %s", full_name);
 
     return 0;
 }
-

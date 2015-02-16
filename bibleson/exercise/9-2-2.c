@@ -12,14 +12,13 @@ int main()
     i = sizeof(ary)/sizeof(ary[0]);
 
     for(m=0;m<i;m++){
-    count[ary[m]-1] = count[ary[m]-1] +1;
+        count[ary[m]-1] = count[ary[m]-1] +1;
     }
 
 
     for(n=1;n<=20;n++){
-    printf("%d - %dê°œ\n",n,count[n-1]);
+        printf("%d - %d°³\n",n,count[n-1]);
     }
 
     return 0;
 }
-

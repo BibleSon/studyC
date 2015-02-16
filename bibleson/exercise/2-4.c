@@ -2,14 +2,14 @@
 
 int main()
 {
-	int num1, num2, num3;
-	
-	printf("ë‘ ì •ìˆ˜ê°’ì„ ì…ë ¥í•˜ì„¸ìš” :");
-	scanf("%d%d",&num1,&num2);
-	num3 = num1 + num2;
-	printf("ë‘ ì •ìˆ˜ì˜ í•©ì€ %dì…ë‹ˆë‹¤.",num3);
+    int num1, num2, num3;
 
-	return 0;
+    printf("µÎ Á¤¼ö°ªÀ» ÀÔ·ÂÇÏ¼¼¿ä :");
+    scanf("%d%d",&num1,&num2);
+    num3 = num1 + num2;
+    printf("µÎ Á¤¼öÀÇ ÇÕÀº %dÀÔ´Ï´Ù.",num3);
+
+    return 0;
 }
 
 

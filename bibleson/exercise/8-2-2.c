@@ -11,10 +11,10 @@ int main()
 {
     double half, res;
 
-    printf("ë°˜ì§€ë¦„ì„ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("¹İÁö¸§À» ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf",&half);
     res = circle(half);
-    printf("ë©´ì ì€ : %.3lfì…ë‹ˆë‹¤.",res);
+    printf("¸éÀûÀº : %.3lfÀÔ´Ï´Ù.",res);
 
     return 0;
 }

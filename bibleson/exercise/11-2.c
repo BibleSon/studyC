@@ -7,7 +7,7 @@ int main()
     double *p_ary = ary;
     int m, i;
     double tmp;
- 
+
     m = sizeof(ary)/sizeof(ary[0]);
 
     for(i=0;i<(m/2);i++){
@@ -20,7 +20,7 @@ int main()
         printf("%.1lf ",*(p_ary +i));
     }
 
-    
+
     return 0;
 
 }

@@ -7,17 +7,16 @@ int main()
     int age;
     double height;
 
-    printf("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš” :");
+    printf("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä :");
     scanf("%s",name);
-    printf("ì„±ë³„ì„ ì…ë ¥í•˜ì„¸ìš” :");
+    printf("¼ºº°À» ÀÔ·ÂÇÏ¼¼¿ä :");
     scanf(" %c",&sex);
-    printf("ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš” :");
+    printf("³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
     scanf("%d",&age);
-    printf("í‚¤ë¥¼ ì…ë ¥í•˜ì„¸ìš” :");
+    printf("Å°¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
     scanf("%lf",&height);
-    printf("ì´ë¦„:%s, ì„±ë³„:%c, ë‚˜ì´:%d, í‚¤:%.1lf",name,sex,age,height);
+    printf("ÀÌ¸§:%s, ¼ºº°:%c, ³ªÀÌ:%d, Å°:%.1lf",name,sex,age,height);
 
     return 0;
 
 }
-

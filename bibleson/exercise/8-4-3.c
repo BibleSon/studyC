@@ -2,7 +2,7 @@
 
 double res_disp(double num)
 {
-    printf("ê²°ê³¼ê°’ì€ %lfì…ë‹ˆë‹¤.",num);
+    printf("°á°ú°ªÀº %lfÀÔ´Ï´Ù.",num);
 }
 
 int main()

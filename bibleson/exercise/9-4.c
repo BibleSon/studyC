@@ -20,7 +20,7 @@ int main()
     }
     str2[cnt] = '\0';
 
-    printf("ë³µì‚¬ëœ ë¬¸ìì—´ : %s", str2);
+    printf("º¹»çµÈ ¹®ÀÚ¿­ : %s", str2);
 
     return 0;
 }

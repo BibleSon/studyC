@@ -9,13 +9,12 @@ int main()
 
     for(i=1;i<=5;i++)
     {
-        printf("%d. ë‚˜ì´ë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ",i);
+        printf("%d. ³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ",i);
         scanf("%d",&age);
         tot = tot + age;
     }
     avg = tot/5.0;
-    printf("ë‹¤ì„¯ëª…ì˜ í‰ê·  ë‚˜ì´ëŠ” %.1lfìž…ë‹ˆë‹¤.",avg);
+    printf("´Ù¼¸¸íÀÇ Æò±Õ ³ªÀÌ´Â %.1lfÀÔ´Ï´Ù.",avg);
 
     return 0;
 }
-

@@ -4,7 +4,7 @@ double div()
 {
     double num1, num2, res;
 
-    printf("ë‘ ê°œì˜ ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("µÎ °³ÀÇ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf%lf",&num1, &num2);
     res = num1 / num2;
     return res;
@@ -16,6 +16,6 @@ int main()
 {
     double res;
     res = div();
-    printf("ë‚˜ëˆ—ì…ˆì˜ ê²°ê³¼ëŠ” : %lf",res);
+    printf("³ª´°¼ÀÀÇ °á°ú´Â : %lf",res);
     return 0;
 }

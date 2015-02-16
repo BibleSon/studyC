@@ -13,13 +13,13 @@ int main()
     for(m=0;m<5;m++){
         res = array(ary);
         switch(m){
-            case 0: strcpy(string,"ì²«"); break;
-            case 1: strcpy(string,"ë‘"); break;
-            case 2: strcpy(string,"ì„¸"); break;
-            case 3: strcpy(string,"ë„¤"); break;
-            case 4: strcpy(string,"ë‹¤ì„¯"); break;
+            case 0: strcpy(string,"Ã¹"); break;
+            case 1: strcpy(string,"µÎ"); break;
+            case 2: strcpy(string,"¼¼"); break;
+            case 3: strcpy(string,"³×"); break;
+            case 4: strcpy(string,"´Ù¼¸"); break;
         }
-        printf("%së²ˆì§¸ í˜¸ì¶œí•  ë•Œ : %.1lf\n",string,res);
+        printf("%s¹øÂ° È£ÃâÇÒ ¶§ : %.1lf\n",string,res);
     }
     return 0;
 }
@@ -34,5 +34,3 @@ double array(double *ap)
 
     return result;
 }
-
-

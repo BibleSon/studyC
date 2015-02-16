@@ -6,10 +6,10 @@ int main()
 {
     double abs, res;
 
-    printf("ìˆ«ì í•˜ë‚˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("¼ıÀÚ ÇÏ³ª¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf",&abs);
     res = user_abs(abs);
-    printf("ì ˆëŒ€ê°’ì€ %lfì…ë‹ˆë‹¤.",res);
+    printf("Àı´ë°ªÀº %lfÀÔ´Ï´Ù.",res);
     return 0;
 }
 
@@ -22,4 +22,3 @@ double user_abs(double abs)
 
     return res;
 }
-

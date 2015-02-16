@@ -7,12 +7,12 @@ int main()
     double a, res;
     int b;
 
-    printf("ë°‘ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("¹Ø¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf",&a);
-    printf("ì§€ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("Áö¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%d",&b);
     res = user_pow(a,b);
-    printf("ê±°ë“­ì œê³±ì€ %lfì…ë‹ˆë‹¤.",res);
+    printf("°ÅµìÁ¦°öÀº %lfÀÔ´Ï´Ù.",res);
     return 0;
 }
 

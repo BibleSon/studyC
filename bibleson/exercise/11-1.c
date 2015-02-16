@@ -13,11 +13,10 @@ int main()
     for(i=0;i<m;i++){
         tot = tot + *(&ary[0] + i);
     }
-    
-    avg = tot / m;
-    
-    printf("í‰ê· ê°’ : %.2lf",avg);
-    return 0;
-    
-}
 
+    avg = tot / m;
+
+    printf("Æò±Õ°ª : %.2lf",avg);
+    return 0;
+
+}

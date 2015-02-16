@@ -6,17 +6,16 @@ int main(void)
 
     while(1)
     {
-        printf("ê³„ë€ì˜ ë¬´ê²Œë¥¼ ì…ë ¥í•˜ì„¸ìš”(ë‹¨ìœ„ : g) : ");
+        printf("°è¶õÀÇ ¹«°Ô¸¦ ÀÔ·ÂÇÏ¼¼¿ä(´ÜÀ§ : g) : ");
         scanf("%d",&gram);
-        
+
         if(gram<300) continue;
         else if(gram>=300){
             num = num +1;
             if(num == 30) break;
-            printf("í˜„ì¬ ì™•ê³„ë€ì˜ ìˆ˜ : %d\n", num);
+            printf("ÇöÀç ¿Õ°è¶õÀÇ ¼ö : %d\n", num);
         }
     }
-    printf("ê³„ë€ í•œ íŒì„ ëª¨ë‘ ë‹´ì•˜ìŠµë‹ˆë‹¤!");
+    printf("°è¶õ ÇÑ ÆÇÀ» ¸ğµÎ ´ã¾Ò½À´Ï´Ù!");
     return 0;
 }
-

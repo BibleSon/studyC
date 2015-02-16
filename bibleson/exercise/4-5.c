@@ -5,17 +5,17 @@ int main()
     int ff, cm, distance, speed, hour, min;
     double cc, inch, sec;
 
-    printf("í™”ì”¨ ì˜¨ë„ë¥¼ ì…ë ¥í•˜ì„¸ìš” :");
+    printf("È­¾¾ ¿Âµµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
     scanf("%d",&ff);
-    
+
     cc = (ff-32)*5/9.0;
 
-    printf("ì„­ì”¨ ì˜¨ë„ëŠ” %.1lfë„ì…ë‹ˆë‹¤.\nì„¼í‹°ë¯¸í„° ê¸¸ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš” :",cc);
+    printf("¼·¾¾ ¿Âµµ´Â %.1lfµµÀÔ´Ï´Ù.\n¼¾Æ¼¹ÌÅÍ ±æÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä :",cc);
     scanf("%d",&cm);
 
     inch = cm/2.54;
 
-    printf("ì¸ì¹˜ë¡œ ê³„ì‚°í•˜ë©´ %.1lfì¸ì¹˜ì…ë‹ˆë‹¤.\nê±°ë¦¬ì™€ ì†ë ¥ì„ ì…ë ¥í•˜ì„¸ìš” :",inch);
+    printf("ÀÎÄ¡·Î °è»êÇÏ¸é %.1lfÀÎÄ¡ÀÔ´Ï´Ù.\n°Å¸®¿Í ¼Ó·ÂÀ» ÀÔ·ÂÇÏ¼¼¿ä :",inch);
     scanf("%d%d",&distance,&speed);
 
     hour = distance/speed;
@@ -23,7 +23,8 @@ int main()
     sec = ((distance%speed)*1000.0)/(speed*1000.0/60)*60 - min*60;
 
 
-    printf("ê±¸ë¦¬ëŠ” ì‹œê°„ì€ : %dì‹œê°„, %dë¶„, %.3lfì´ˆì…ë‹ˆë‹¤.",hour, min, sec);
+    printf("°É¸®´Â ½Ã°£Àº : %d½Ã°£, %dºĞ, %.3lfÃÊÀÔ´Ï´Ù.",hour, min, sec);
+
 
     return 0;
 }

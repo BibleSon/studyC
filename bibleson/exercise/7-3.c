@@ -5,7 +5,7 @@ int main()
     int star, num;
     star = 1;
 
-    printf("ì–‘ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš” :");
+    printf("¾ç¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
     scanf("%d",&num);
 
     while(star<=num)
@@ -15,5 +15,3 @@ int main()
     }
     return 0;
 }
-
-

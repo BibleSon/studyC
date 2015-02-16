@@ -6,13 +6,13 @@ int main()
 
     num = 0;
     total = 0;
-   
+
     while(num>=0)
     {
-        printf("Л√▒Л┬≤К╔╪ Л·┘К═╔М∙≤Л└╦Л ■ :");
+        printf("╬Г╪Ж╦╕ ют╥бго╪╪©Д :");
         scanf("%d",&num);
         total = total + num;
-        printf("Л╖─Й╦┬Й╧▄Л╖─ Л·┘К═╔К░° Й╟▓Л²≤ М∙╘: %d\n",total);
+        printf("аЖ╠щ╠НаЖ ют╥б╣х ╟╙юг гу: %d\n",total);
     }
 
     return 0;

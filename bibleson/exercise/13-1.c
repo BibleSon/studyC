@@ -5,10 +5,10 @@ int main()
 {
     double num1, num2;
 
-    printf("ë‘ ê°œì˜ ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("µÎ °³ÀÇ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf%lf",&num1,&num2);
     mul(&num1,&num2);
-    printf("ë‘ ìˆ˜ì˜ ê³±ì€ : %.2lf",num1);
+    printf("µÎ ¼öÀÇ °öÀº : %.2lf",num1);
     return 0;
 }
 

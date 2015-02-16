@@ -5,10 +5,9 @@ struct cracker {int price; int calories;};
 int main()
 {
     struct cracker crk;
-    printf("ë°”ì‚¬ì‚­ì˜ ê°€ê²©ê³¼ ì—´ëŸ‰ì„ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("¹Ù»ç»èÀÇ °¡°İ°ú ¿­·®À» ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%d%d",&crk.price,&crk.calories);
-    printf("ë°”ì‚¬ì‚­ì˜ ê°€ê²© : %dì›\në°”ì‚¬ì‚­ì˜ ì—´ëŸ‰ : %dkcal",crk.price,crk.calories);
+    printf("¹Ù»ç»èÀÇ °¡°İ : %d¿ø\n¹Ù»ç»èÀÇ ¿­·® : %dkcal",crk.price,crk.calories);
 
     return 0;
 }
-    

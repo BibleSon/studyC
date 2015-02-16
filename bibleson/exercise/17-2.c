@@ -8,23 +8,22 @@ int main()
 {
     char *name;
     struct student st;
-    
+
     name = (char*)malloc(20*sizeof(char));
     st.pf.np = name;
 
-    printf("ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%d",&st.pf.age);
-    printf("í‚¤ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("Å°¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf",&st.pf.height);
-    printf("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%s",st.pf.np);
 
     st.num = 5;
     st.grade = 4.4;
 
-    printf("ì´ë¦„ : %s\në‚˜ì´ : %d\n í‚¤ : %.1lf\ní•™ë²ˆ : %d\ní•™ì  : %.1lf", st.pf.np, st.pf.age, st.pf.height, st.num, st.grade); 
+    printf("ÀÌ¸§ : %s\n³ªÀÌ : %d\n Å° : %.1lf\nÇĞ¹ø : %d\nÇĞÁ¡ : %.1lf", st.pf.np, st.pf.age, st.pf.height, st.num, st.grade); 
     free(name);
 
     return 0;
 }
-

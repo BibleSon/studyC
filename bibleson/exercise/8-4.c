@@ -1,12 +1,12 @@
 #include <stdio.h>
 void menu_disp()
 {
-    printf("==========< ë©”ë‰´ >==========\n");
-    printf("1. ë§ì…ˆ(addition)\n");
-    printf("2. ëº„ì…ˆ(subtraction)\n");
-    printf("3. ê³±ì…ˆ(multipication)\n");
-    printf("4. ë‚˜ëˆ—ì…ˆ(division)\n");
-    printf(">> ì›í•˜ëŠ” ë©”ë‰´ë¥¼ ì„ íƒí•˜ì„¸ìš” : ");
+    printf("==========< ¸Ş´º >==========\n");
+    printf("1. µ¡¼À(addition)\n");
+    printf("2. »¬¼À(subtraction)\n");
+    printf("3. °ö¼À(multipication)\n");
+    printf("4. ³ª´°¼À(division)\n");
+    printf(">> ¿øÇÏ´Â ¸Ş´º¸¦ ¼±ÅÃÇÏ¼¼¿ä : ");
 }
 
 int main()
@@ -14,5 +14,3 @@ int main()
     menu_disp();
     return 0;
 }
-
-

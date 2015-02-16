@@ -11,13 +11,13 @@ int main()
     double ary[] = {0.1, 0.3, 0.5, 0.7, 0.9};
     res = ary[0];
 
-    printf("nextí˜¸ì¶œ : %.1lf\n",res);
+    printf("nextÈ£Ãâ : %.1lf\n",res);
     get_next(ary);
-    printf("nextí˜¸ì¶œ : %.1lf\n",res);
+    printf("nextÈ£Ãâ : %.1lf\n",res);
     get_next(ary);
-    printf("beforeí˜¸ì¶œ : %.1lf\n",res);
+    printf("beforeÈ£Ãâ : %.1lf\n",res);
     get_before(ary);
-    printf("beforeí˜¸ì¶œ : %.1lf\n",res);
+    printf("beforeÈ£Ãâ : %.1lf\n",res);
 
     return 0;
 }
@@ -35,4 +35,3 @@ double get_before(double *ap)
     res = ap[i];
     return res;
 }
-    

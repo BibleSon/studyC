@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <string.h>
 
@@ -14,9 +15,7 @@ int main()
         else if(strlen(res) < strlen(animal[i+1])){ strcpy(res,animal[i+1]); }
     }
 
-    printf("ê°€ìž¥ ì´ë¦„ì´ ê¸´ ë™ë¬¼ì€ : %s",res);
+    printf("°¡Àå ÀÌ¸§ÀÌ ±ä µ¿¹°Àº : %s",res);
 
     return 0;
 }
-
-

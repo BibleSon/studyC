@@ -6,14 +6,14 @@ int main()
     char season[100] = {0};
     char flower[100] = {0};
 
-    printf("ê³„ì ˆëª…ì„ ìž…ë ¥í•˜ì„¸ìš” : ");
+    printf("°èÀý¸íÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%s", season);
-    
-    if (strcmp(season, "ë´„") == 0){ strcpy(flower,"ê°œë‚˜ë¦¬"); }
-    else if (strcmp(season, "ì—¬ë¦„") == 0){ strcpy(flower,"ìž¥ë¯¸"); }
-    else if (strcmp(season, "ê°€ì„") == 0){ strcpy(flower,"êµ­í™”"); }
-    else if (strcmp(season, "ê²¨ìš¸") == 0){ strcpy(flower,"ë§¤í™”"); }
-    else { strcpy(flower,"ê³„ì ˆëª…ì„ ìž˜ëª» ìž…ë ¥í•˜ì˜€ìŠµë‹ˆë‹¤. >"); }
+
+    if (strcmp(season, "º½") == 0){ strcpy(flower,"°³³ª¸®"); }
+    else if (strcmp(season, "¿©¸§") == 0){ strcpy(flower,"Àå¹Ì"); }
+    else if (strcmp(season, "°¡À»") == 0){ strcpy(flower,"±¹È­"); }
+    else if (strcmp(season, "°Ü¿ï") == 0){ strcpy(flower,"¸ÅÈ­"); }
+    else { strcpy(flower,"°èÀý¸íÀ» Àß¸ø ÀÔ·ÂÇÏ¿´½À´Ï´Ù. >"); }
 
     printf("%s",flower);
 

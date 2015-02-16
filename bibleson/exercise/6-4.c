@@ -6,74 +6,73 @@ int main()
     char alu;
     double fee;
 
-    printf("í•™ë…„ì„ ì…ë ¥í•˜ì„¸ìš” :");
+    printf("ÇĞ³âÀ» ÀÔ·ÂÇÏ¼¼¿ä :");
     scanf("%d",&grade);
 
     switch(grade){
         case 1:
-            printf("ë“±ë¡ê¸ˆì€ 130ë§Œì›ì…ë‹ˆë‹¤.\n");
+            printf("µî·Ï±İÀº 130¸¸¿øÀÔ´Ï´Ù.\n");
             break;
         case 2:
-            printf("ë“±ë¡ê¸ˆì€ 100ë§Œì›ì…ë‹ˆë‹¤.\n");
+            printf("µî·Ï±İÀº 100¸¸¿øÀÔ´Ï´Ù.\n");
             break;
         case 3:
-            printf("ë“±ë¡ê¸ˆì€ 100ë§Œì›ì…ë‹ˆë‹¤.\n");
+            printf("µî·Ï±İÀº 100¸¸¿øÀÔ´Ï´Ù.\n");
             break;
         case 4:
-            printf("ë“±ë¡ê¸ˆì€ 110ë§Œì›ì…ë‹ˆë‹¤.\n");
+            printf("µî·Ï±İÀº 110¸¸¿øÀÔ´Ï´Ù.\n");
             break;
         default:
-            printf("í•™ë…„ì„ ì˜ëª» ì…ë ¥í•˜ì˜€ìŠµë‹ˆë‹¤.\n");
+            printf("ÇĞ³âÀ» Àß¸ø ÀÔ·ÂÇÏ¿´½À´Ï´Ù.\n");
             break;
     }
 
-    printf("ìˆ˜ì‹ì„ ì…ë ¥í•˜ì„¸ìš” :");
+    printf("¼ö½ÄÀ» ÀÔ·ÂÇÏ¼¼¿ä :");
     scanf("%lf%c%lf",&num1,&alu,&num2);
 
     switch(alu){
         case '+':
             num = num1 + num2;
-            printf("ì—°ì‚°ê²°ê³¼ëŠ” %.2lfì…ë‹ˆë‹¤.\n",num);
+            printf("¿¬»ê°á°ú´Â %.2lfÀÔ´Ï´Ù.\n",num);
             break;
         case '-':
             num = num1 - num2;
-            printf("ì—°ì‚°ê²°ê³¼ëŠ” %.2lfì…ë‹ˆë‹¤.\n",num);
+            printf("¿¬»ê°á°ú´Â %.2lfÀÔ´Ï´Ù.\n",num);
             break;
         case '*':
             num = num1 * num2;
-            printf("ì—°ì‚°ê²°ê³¼ëŠ” %.2lfì…ë‹ˆë‹¤.\n",num);
+            printf("¿¬»ê°á°ú´Â %.2lfÀÔ´Ï´Ù.\n",num);
             break;
         case '/':
             num = num1 / num2;
-            printf("ì—°ì‚°ê²°ê³¼ëŠ” %.2lfì…ë‹ˆë‹¤.\n",num);
+            printf("¿¬»ê°á°ú´Â %.2lfÀÔ´Ï´Ù.\n",num);
             break;
         default:
-            printf("ì—†ëŠ” ì—°ì‚°ê¸°í˜¸ì…ë‹ˆë‹¤.\n");
+            printf("¾ø´Â ¿¬»ê±âÈ£ÀÔ´Ï´Ù.\n");
             break;
     }
 
-    printf("ì½”ë“œë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš”(1ê°€ì •ìš©, 2ì‚°ì—…ìš©, 3êµìœ¡ìš©) :");
+    printf("ÄÚµå¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä(1°¡Á¤¿ë, 2»ê¾÷¿ë, 3±³À°¿ë) :");
     scanf("%d",&code);
-    printf("ì „ê¸° ì‚¬ìš©ëŸ‰ì„ ì…ë ¥í•˜ì„¸ìš”(kw) :");
+    printf("Àü±â »ç¿ë·®À» ÀÔ·ÂÇÏ¼¼¿ä(kw) :");
     scanf("%d",&watt);
-    
+
     switch(code){
         case 1:
             fee = (1130 + (watt*127.8)) * 1.09;
-            printf("ì „ê¸°ìš”ê¸ˆì€ %.0lfì›ì…ë‹ˆë‹¤.", fee);
+            printf("Àü±â¿ä±İÀº %.0lf¿øÀÔ´Ï´Ù.", fee);
             break;
         case 2:
             fee = (660 + (watt*88.5)) *1.08;
-            printf("ì „ê¸°ìš”ê¸ˆì€ %.0lfì›ì…ë‹ˆë‹¤.", fee);
+            printf("Àü±â¿ä±İÀº %.0lf¿øÀÔ´Ï´Ù.", fee);
             break;
         case 3:
             fee = (370 + (watt*52.0)) * 1.05;
-            printf("ì „ê¸°ìš”ê¸ˆì€ %.0lfì›ì…ë‹ˆë‹¤.", fee);
+            printf("Àü±â¿ä±İÀº %.0lf¿øÀÔ´Ï´Ù.", fee);
             break;
         default:
-            printf("ì—†ëŠ” ì½”ë“œì…ë‹ˆë‹¤.");
+            printf("¾ø´Â ÄÚµåÀÔ´Ï´Ù.");
             break;
     }
     return 0;
 }
-

@@ -5,14 +5,14 @@ int main()
     int weight;
     double height, bmi;
 
-    printf("ëª¸ë¬´ê²Œë¥¼ ì…ë ¥í•˜ì„¸ìš”(kg) :");
+    printf("¸ö¹«°Ô¸¦ ÀÔ·ÂÇÏ¼¼¿ä(kg) :");
     scanf("%d",&weight);
-    printf("í‚¤ë¥¼ ì…ë ¥í•˜ì„¸ìš”(m) :");
+    printf("Å°¸¦ ÀÔ·ÂÇÏ¼¼¿ä(m) :");
     scanf("%lf",&height);
-    
+
     bmi = weight/(height*height);
 
-    printf("ë‹¹ì‹ ì˜ BMIëŠ” : %.1lfì…ë‹ˆë‹¤.",bmi);
+    printf("´ç½ÅÀÇ BMI´Â : %.1lfÀÔ´Ï´Ù.",bmi);
 
     return 0;
 }

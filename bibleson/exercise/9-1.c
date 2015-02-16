@@ -6,8 +6,8 @@ int main()
     double res;
     int i;
 
-    printf("ë‹¤ì„¯ ê°œì˜ ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
-    
+    printf("´Ù¼¸ °³ÀÇ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+
     for(i=0;i<5;i++){
         scanf("%lf",&num[i]);     
     }
@@ -19,7 +19,6 @@ int main()
         else if( res <= num[i]){ res = num[i]; }
     }
 
-    printf("ê°€ì¥ í° ê°’ì€ : %lfì…ë‹ˆë‹¤.",res);
+    printf("°¡Àå Å« °ªÀº : %lfÀÔ´Ï´Ù.",res);
     return 0;
 }
-   

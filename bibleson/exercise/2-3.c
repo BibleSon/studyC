@@ -7,7 +7,8 @@ int main()
 	int cha;
 	cha = height - weight ;
 	
-	printf("í‚¤ : %dcm \nëª¸ë¬´ê²Œ : %dkg \ní‚¤ì—ì„œ ëª¸ë¬´ê²Œë¥¼ ëº€ ê°’ì€ %d ì…ë‹ˆë‹¤.",height,weight,cha);
+
+    printf("Å° : %dcm \n¸ö¹«°Ô : %dkg \nÅ°¿¡¼­ ¸ö¹«°Ô¸¦ »« °ªÀº %d ÀÔ´Ï´Ù.",height,weight,cha);
 
 	return 0;
 }

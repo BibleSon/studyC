@@ -2,18 +2,17 @@
 
 int main()
 {
-	int kw;
-	double cost, totalcost;
+    int kw;
+    double cost, totalcost;
 
+    printf("Àü±â »ç¿ë·®À» ÀÔ·ÂÇÏ¼¼¿ä(kw) :");
+    scanf("%d",&kw);
 
+    cost = kw*88.5+660;
+    totalcost = cost + (cost*0.09);
 
-	printf("ì „ê¸° ì‚¬ìš©ëŸ‰ì„ ì…ë ¥í•˜ì„¸ìš”(kw) :");
-	scanf("%d",&kw);
+    printf("Àü±â »ç¿ë ¿ä±İÀº %lf¿ø ÀÔ´Ï´Ù.",totalcost);
+    return 0;
 
-	cost = kw*88.5+660;
-	totalcost = cost + (cost*0.09);
-
-	printf("ì „ê¸° ì‚¬ìš© ìš”ê¸ˆì€ %lfì› ì…ë‹ˆë‹¤.",totalcost);
-	return 0;
 
 }

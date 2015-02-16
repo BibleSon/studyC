@@ -5,52 +5,51 @@ int main()
     int weight, height, y1, y2, y3, year;
     double bmi;
 
-    printf("ë¬¸ìë¥¼ ì…ë ¥í•˜ì„¸ìš” :");
+    printf("¹®ÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
     scanf("%c",&sex);
 
     if(sex == 'f'){
-        printf("ì—¬ìì…ë‹ˆë‹¤.\n");
+        printf("¿©ÀÚÀÔ´Ï´Ù.\n");
     }
     else if(sex == 'm'){
-        printf("ë‚¨ìì…ë‹ˆë‹¤.\n");
+        printf("³²ÀÚÀÔ´Ï´Ù.\n");
     }
     else {
-        printf("ì˜ëª» ì…ë ¥í•˜ì˜€ìŠµë‹ˆë‹¤.\n");
+        printf("Àß¸ø ÀÔ·ÂÇÏ¿´½À´Ï´Ù.\n");
     }
 
-    printf("ì—°ë„ë¥¼ ì…ë ¥í•˜ì„¸ìš” :");
+    printf("¿¬µµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
     scanf("%d",&year);
     y1 = year%4;
     y2 = year%100;
     y3 = year%400;
 
     if((y1==0)&&(y2!=0)){
-        printf("ìœ¤ë…„ì…ë‹ˆë‹¤.\n");
+        printf("À±³âÀÔ´Ï´Ù.\n");
     }
     else if((y1==0)&&(y2==0)&&(y3==0)){
-        printf("ìœ¤ë…„ì…ë‹ˆë‹¤.\n");
+        printf("À±³âÀÔ´Ï´Ù.\n");
     }
-    else {printf("í‰ë…„ì…ë‹ˆë‹¤.\n"); }
+    else {printf("Æò³âÀÔ´Ï´Ù.\n"); }
 
-    printf("ì„±ë³„ì„ ì…ë ¥í•˜ì„¸ìš”(m/f) :");
+    printf("¼ºº°À» ÀÔ·ÂÇÏ¼¼¿ä(m/f) :");
     scanf(" %c",&sex);
-    printf("ëª¸ë¬´ê²Œë¥¼ ì…ë ¥í•˜ì„¸ìš”(kg) :");
+    printf("¸ö¹«°Ô¸¦ ÀÔ·ÂÇÏ¼¼¿ä(kg) :");
     scanf("%d",&weight);
-    printf("í‚¤ë¥¼ ì…ë ¥í•˜ì„¸ìš”(cm) :");
+    printf("Å°¸¦ ÀÔ·ÂÇÏ¼¼¿ä(cm) :");
     scanf("%d",&height);
     bmi = weight/((height*0.01)*(height*0.01));
-    printf("ë‹¹ì‹ ì˜ BMIëŠ” : %.1lfì…ë‹ˆë‹¤.\n",bmi);    
+    printf("´ç½ÅÀÇ BMI´Â : %.1lfÀÔ´Ï´Ù.\n",bmi);    
     if(sex == 'm'){
-        if(bmi<20) { printf("ì €ì²´ì¤‘ì…ë‹ˆë‹¤."); }
-        else if(bmi>=20&&bmi<25) { printf("í‘œì¤€ì²´ì¤‘ì…ë‹ˆë‹¤."); }
-        else if(bmi>=25) { printf("ê³¼ì²´ì¤‘ì…ë‹ˆë‹¤."); }
+        if(bmi<20) { printf("ÀúÃ¼ÁßÀÔ´Ï´Ù."); }
+        else if(bmi>=20&&bmi<25) { printf("Ç¥ÁØÃ¼ÁßÀÔ´Ï´Ù."); }
+        else if(bmi>=25) { printf("°úÃ¼ÁßÀÔ´Ï´Ù."); }
     }
     else if(sex == 'f'){
-        if(bmi<18.5) { printf("ì €ì²´ì¤‘ì…ë‹ˆë‹¤."); }
-        else if(bmi>=18.5&&bmi<25) { printf("í‘œì¤€ì²´ì¤‘ì…ë‹ˆë‹¤."); }
-        else if(bmi>=25) { printf("ê³¼ì²´ì¤‘ì…ë‹ˆë‹¤."); }
+        if(bmi<18.5) { printf("ÀúÃ¼ÁßÀÔ´Ï´Ù."); }
+        else if(bmi>=18.5&&bmi<25) { printf("Ç¥ÁØÃ¼ÁßÀÔ´Ï´Ù."); }
+        else if(bmi>=25) { printf("°úÃ¼ÁßÀÔ´Ï´Ù."); }
     }
 
     return 0;
 }
-

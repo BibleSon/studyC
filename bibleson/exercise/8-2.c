@@ -6,11 +6,11 @@ int main()
 {
     double result, num1, num2;
 
-    printf("ë‘ ê°œì˜ ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” :");
+    printf("µÎ °³ÀÇ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
     scanf("%lf%lf",&num1,&num2);
     result = mul(num1,num2);
 
-    printf("ë‘ ìˆ˜ì˜ ê³±ì€ : %.1lf",result);
+    printf("µÎ ¼öÀÇ °öÀº : %.1lf",result);
     return 0;
 }
 
@@ -20,5 +20,4 @@ double mul(double num1, double num2)
     res = num1 * num2;
     return res;
 }
-
 

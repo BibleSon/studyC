@@ -7,7 +7,7 @@ int main()
 
     cnt = 0;
 
-    printf("ë‹¨ì–´ë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ");
+    printf("´Ü¾î¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%s",string);
 
     for(i=0;i<100;i++){
@@ -21,8 +21,7 @@ int main()
         string[cnt-1-i] = tmp;
     }
 
-    printf("ë‹¨ì–´ë¥¼ ë’¤ì§‘ìœ¼ë©´ : %s",string);
+    printf("´Ü¾î¸¦ µÚÁýÀ¸¸é : %s",string);
 
     return 0;
 }
-

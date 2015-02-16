@@ -7,7 +7,7 @@ int main()
 
     cnt = 0;
 
-    printf("ë‹¨ì–´ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("´Ü¾î¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%s",string);
 
     m = sizeof(string)/sizeof(string[0]);
@@ -17,7 +17,6 @@ int main()
         cnt = cnt +1;
     }
 
-    printf("%së‹¨ì–´ì˜ ê¸¸ì´ëŠ” %dìì…ë‹ˆë‹¤.",string,cnt);
+    printf("%s´Ü¾îÀÇ ±æÀÌ´Â %dÀÚÀÔ´Ï´Ù.",string,cnt);
     return 0;
 }
-

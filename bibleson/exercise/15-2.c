@@ -15,22 +15,21 @@ int main()
 
 void scan(char (*str) [80])
 {
-    printf("ë‹¤ì„¯ ê°œì˜ ë¬¸ì¥ì„ ì…ë ¥í•˜ì„¸ìš”.\n");
-    printf("ì´ë¦„ : ");
+    printf("´Ù¼¸ °³ÀÇ ¹®ÀåÀ» ÀÔ·ÂÇÏ¼¼¿ä.\n");
+    printf("ÀÌ¸§ : ");
     gets(str[0]);
-    printf("ì„±ë³„ : ");
+    printf("¼ºº° : ");
     gets(str[1]);
-    printf("ì£¼ì†Œ : ");
+    printf("ÁÖ¼Ò : ");
     gets(str[2]);
-    printf("ì§ì—… : ");
+    printf("Á÷¾÷ : ");
     gets(str[3]);
-    printf("ì—°ë´‰ : ");
+    printf("¿¬ºÀ : ");
     gets(str[4]);
 }
 
 void print(char (*stg) [80])
 {
-    printf("\n\nì…ë ¥ëœ ë¬¸ì¥ì€...\n");
-    printf("ì´ë¦„ : %s\nì„±ë³„ : %s\nì£¼ì†Œ : %s\nì§ì—… : %s\nì—°ë´‰ : %s", stg[0], stg[1], stg[2], stg[3], stg[4]);
+    printf("\n\nÀÔ·ÂµÈ ¹®ÀåÀº...\n");
+    printf("ÀÌ¸§ : %s\n¼ºº° : %s\nÁÖ¼Ò : %s\nÁ÷¾÷ : %s\n¿¬ºÀ : %s", stg[0], stg[1], stg[2], stg[3], stg[4]);
 }
-

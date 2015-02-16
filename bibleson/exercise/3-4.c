@@ -2,16 +2,15 @@
 
 int main()
 {
-	int his, lit, art, tot;
-	double avg;
+    int his, lit, art, tot;
+    double avg;
 
-	printf("ì—­ì‚¬, ë¬¸í•™, ì˜ˆëŠ¥ ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
-	scanf("%d %d %d",&his,&lit,&art);
+    printf("¿ª»ç, ¹®ÇĞ, ¿¹´É Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+    scanf("%d %d %d",&his,&lit,&art);
 
-	tot = his + lit + art;
-	avg = tot/3.0;
+    tot = his + lit + art;
+    avg = tot/3.0;
 
-	printf("ì´ì ì€ %dì´ê³  í‰ê· ì€ %lfì…ë‹ˆë‹¤.",tot,avg);
-
-	return 0;
+    printf("ÃÑÁ¡Àº %dÀÌ°í Æò±ÕÀº %lfÀÔ´Ï´Ù.",tot,avg);
+    return 0;
 }

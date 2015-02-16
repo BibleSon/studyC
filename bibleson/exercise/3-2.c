@@ -2,17 +2,16 @@
 
 int main()
 {
-	char number;
-	double hit;
-	int age;
+    char number;
+    double hit;
+    int age;
 
-	printf("ë“±ë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš” :");
-	scanf("%c",&number);
-	printf("íƒ€ìœ¨ì„ ì…ë ¥í•˜ì„¸ìš” :");
-	scanf("%lf",&hit);
-	printf("ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš” :");
-	scanf("%d",&age);
-	printf("%cë²ˆ ì„ ìˆ˜ì˜ íƒ€ìœ¨ì€ %lfì´ê³  ë‚˜ì´ëŠ” %dì‚´ì…ë‹ˆë‹¤.",number,hit,age);
-
-	return 0;
+    printf("µî¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
+    scanf("%c",&number);
+    printf("Å¸À²À» ÀÔ·ÂÇÏ¼¼¿ä :");
+    scanf("%lf",&hit);
+    printf("³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
+    scanf("%d",&age);
+    printf("%c¹ø ¼±¼öÀÇ Å¸À²Àº %lfÀÌ°í ³ªÀÌ´Â %d»ìÀÔ´Ï´Ù.",number,hit,age);
+    return 0;
 }

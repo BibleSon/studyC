@@ -18,7 +18,7 @@ int main()
         mem += (strlen(animal[i])+1);
     }
 
-    printf("ë‚­ë¹„ë˜ëŠ” ê¸°ì–µê³µê°„ì˜ ë¹„ìœ¨ : %.2lf%%",((memory - mem)/(double)memory)*100);
+    printf("³¶ºñµÇ´Â ±â¾ï°ø°£ÀÇ ºñÀ² : %.2lf%%",((memory - mem)/(double)memory)*100);
 
     return 0;
 }

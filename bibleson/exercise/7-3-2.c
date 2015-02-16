@@ -6,7 +6,7 @@ int main(void)
     num = 0;
     star = 1;
 
-    printf("ì–‘ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš” :");
+    printf("¾ç¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
     scanf("%d",&num);
 
     while(star<=num)

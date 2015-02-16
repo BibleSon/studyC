@@ -9,7 +9,7 @@ int main()
 
     while(1){
         i = 0;
-        printf("ë¬¸ìì—´ì„ ì…ë ¥í•˜ì„¸ìš”(ì¢…ë£ŒëŠ” Enter) : ");
+        printf("¹®ÀÚ¿­À» ÀÔ·ÂÇÏ¼¼¿ä(Á¾·á´Â Enter) : ");
         ch = getchar();
         if(ch == '\n') break;
         str[0] = ch;
@@ -22,10 +22,7 @@ int main()
         }
         str[i] = '\0';
 
-        printf("ì…ë ¥ëœ ë¬¸ìì—´ : %s\n",str);
+        printf("ÀÔ·ÂµÈ ¹®ÀÚ¿­ : %s\n",str);
     }
     return 0;
 }
-
-
-

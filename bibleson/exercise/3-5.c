@@ -11,7 +11,7 @@ int main()
 	min = g1%60;
 	hour = g1/60;
 
-	printf("%dì´ˆëŠ” %dì‹œê°„, %dë¶„, %dì´ˆì…ë‹ˆë‹¤.",time,hour,min,sec);
+    printf("%dÃÊ´Â %d½Ã°£, %dºĞ, %dÃÊÀÔ´Ï´Ù.",time,hour,min,sec);
 
 	return 0;
 }

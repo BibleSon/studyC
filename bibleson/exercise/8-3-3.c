@@ -11,12 +11,10 @@ double func(double x)
 int main()
 {
     double x, res;
-    printf("xì˜ ê°’ì„ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("xÀÇ °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf",&x);
     res = func(x);
-    printf("ê²°ê³¼ê°’ì€ %lfì…ë‹ˆë‹¤.",res);
+    printf("°á°ú°ªÀº %lfÀÔ´Ï´Ù.",res);
     return 0;
-    
+
 }
-
-

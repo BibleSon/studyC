@@ -5,7 +5,7 @@ int main()
     int num, i, res;
     i = 1;
 
-    printf("í•œ ê°œì˜ ë‹¨ì„ ì…ë ¥í•˜ì„¸ìš” :");
+    printf("ÇÑ °³ÀÇ ´ÜÀ» ÀÔ·ÂÇÏ¼¼¿ä :");
     scanf("%d",&num);
 
     while(i<10)

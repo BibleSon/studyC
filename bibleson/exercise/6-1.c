@@ -3,13 +3,13 @@ int main()
 {
     int num, abs;
 
-    printf("ì •ìˆ˜ê°’ì„ ì…ë ¥í•˜ì„¸ìš” :");
+    printf("Á¤¼ö°ªÀ» ÀÔ·ÂÇÏ¼¼¿ä :");
     scanf("%d", &num);
 
     if(num<0) { abs = num*(-1); }
     else if(num>=0) { abs = num; } 
 
-    printf("ì ˆëŒ€ê°’ì€ %dì…ë‹ˆë‹¤.",abs);
+    printf("Àı´ë°ªÀº %dÀÔ´Ï´Ù.",abs);
 
     return 0;
 }

@@ -4,13 +4,13 @@ int main()
 {
     int distance, speed, time, rest;
 
-    printf("ê±°ë¦¬(km)ì™€ ì†ë ¥(km/h)ì„ ì…ë ¥í•˜ì„¸ìš” :");
+    printf("°Å¸®(km)¿Í ¼Ó·Â(km/h)À» ÀÔ·ÂÇÏ¼¼¿ä :");
     scanf("%d%d",&distance,&speed);
 
     time = distance/speed;
     rest = distance%speed;
 
-    printf("%dì‹œê°„ ê±¸ë¦¬ê³  %d(km)ê°€ ë‚¨ìŠµë‹ˆë‹¤.",time,rest);
+    printf("%d½Ã°£ °É¸®°í %d(km)°¡ ³²½À´Ï´Ù.",time,rest);
 
     return 0;
 }

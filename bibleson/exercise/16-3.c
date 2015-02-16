@@ -7,12 +7,12 @@ int main(int argc, char **argv)
     int i = 0;
 
     if(argc < 3){
-        printf("í”„ë¡œê·¸ëž¨ ì‚¬ìš©ë²• ì˜¤ë¥˜ìž…ë‹ˆë‹¤.\nì‚¬ìš©ë²• : string_print ë¬¸ìžì—´ ë°˜ë³µ íšŸìˆ˜");
+        printf("ÇÁ·Î±×·¥ »ç¿ë¹ý ¿À·ùÀÔ´Ï´Ù.\n»ç¿ë¹ý : string_print ¹®ÀÚ¿­ ¹Ýº¹ È½¼ö");
     }
     else{
         while(i<atoi(argv[2])){
-        printf("%s\n",argv[1]);
-        i++;
+            printf("%s\n",argv[1]);
+            i++;
         }
     }
     return 0;

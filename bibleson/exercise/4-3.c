@@ -3,17 +3,17 @@
 int main()
 {
     unsigned int age, day, hour, min, sec;
-    
-    printf("ëª‡ ì‚´ê¹Œì§€ ì‚´ê³  ì‹¶ìŠµë‹ˆê¹Œ?");
+
+    printf("¸î »ì±îÁö »ì°í ½Í½À´Ï±î?");
     scanf("%d",&age);
 
-    if(age<70){printf("ì˜¤ëž˜ì‚¬ì…”ì•¼ì£ ^^ ë‹¤ì‹œ ìž…ë ¥í•´ì£¼ì„¸ìš”.");}
+    if(age<70){printf("¿À·¡»ç¼Å¾ßÁÒ^^ ´Ù½Ã ÀÔ·ÂÇØÁÖ¼¼¿ä.");}
     else {
         day = 365*age;
         hour = day*24;
         min = hour*60;
         sec = min*60;
-        printf("%uì¼, %uì‹œê°„, %uë¶„, %uì´ˆìž…ë‹ˆë‹¤.",day,hour,min,sec);
+        printf("%uÀÏ, %u½Ã°£, %uºÐ, %uÃÊÀÔ´Ï´Ù.",day,hour,min,sec);
     }
 
     return 0;

@@ -13,17 +13,17 @@ int main()
 
 void func(void (*exchange) (double * ap, double * bp), double a1, double b1)
 {
-    printf("ë°”ê¾¸ê¸° ì „ì˜ a, bì˜ ê°’ : %lf, %lf",a1, b1);
+    printf("¹Ù²Ù±â ÀüÀÇ a, bÀÇ °ª : %lf, %lf",a1, b1);
 
     exchange(&a1, &b1);
 
-    printf("\në°”ê¾¼ í›ˆì˜ a, bì˜ ê°’ : %lf, %lf",a1, b1);
+    printf("\n¹Ù²Û ÈÆÀÇ a, bÀÇ °ª : %lf, %lf",a1, b1);
 }
 
 void exchange(double *ap, double *bp)
 {
     double tmp;
-    
+
     tmp = *ap;
     *ap = *bp;
     *bp = tmp;

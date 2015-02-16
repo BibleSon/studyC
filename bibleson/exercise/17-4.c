@@ -12,7 +12,7 @@ int main()
 
     input_data(new_staff);
     elite(new_staff);
-    
+
     return 0;
 }
 
@@ -20,8 +20,8 @@ void input_data(struct profile *ns)
 {
     int i;
 
-    printf("ì´ë¦„, í•™ì , ì˜ì–´ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.\n");
-     
+    printf("ÀÌ¸§, ÇĞÁ¡, ¿µ¾îÁ¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.\n");
+
     for(i=0;i<5;i++){
         scanf("%s%lf%d", ns[i].name, &ns[i].grade, &ns[i].english);
     }

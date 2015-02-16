@@ -2,12 +2,12 @@
 int menu_disp()
 {
     int num;
-    printf("==========< ë©”ë‰´ >==========\n");
-    printf("1. ë§ì…ˆ(addition)\n");
-    printf("2. ëº„ì…ˆ(subtraction)\n");
-    printf("3. ê³±ì…ˆ(multipication)\n");
-    printf("4. ë‚˜ëˆ—ì…ˆ(division)\n");
-    printf(">> ì›í•˜ëŠ” ë©”ë‰´ë¥¼ ì„ íƒí•˜ì„¸ìš” : ");
+    printf("==========< ¸Ş´º >==========\n");
+    printf("1. µ¡¼À(addition)\n");
+    printf("2. »¬¼À(subtraction)\n");
+    printf("3. °ö¼À(multipication)\n");
+    printf("4. ³ª´°¼À(division)\n");
+    printf(">> ¿øÇÏ´Â ¸Ş´º¸¦ ¼±ÅÃÇÏ¼¼¿ä : ");
     scanf("%d",&num);
     return num;
 }
@@ -46,7 +46,7 @@ int main()
     double num1, num2, res;
 
     num = menu_disp();
-    printf("ë‘ ê°œì˜ ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("µÎ °³ÀÇ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf%lf",&num1,&num2);
 
     switch(num){
@@ -59,8 +59,6 @@ int main()
         case 4: res = div(num1, num2);
                 break;
     }
-    printf("ê²°ê³¼ê°’ì€ %lfì…ë‹ˆë‹¤.",res);
+    printf("°á°ú°ªÀº %lfÀÔ´Ï´Ù.",res);
     return 0;
 }
-
-

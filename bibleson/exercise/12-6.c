@@ -8,17 +8,17 @@ int main()
     char address[100] = {0};
     char res[1000] = {0};
 
-    printf("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä : ");
     gets(name);
     strcat(res,name);
     strcat(res,", ");
 
-    printf("ì „í™”ë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("ÀüÈ­¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     gets(number);
     strcat(res,number);
     strcat(res,", ");
 
-    printf("ì£¼ì†Œë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("ÁÖ¼Ò¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     gets(address);
     strcat(res,address);
 
@@ -26,6 +26,4 @@ int main()
 
     return 0;
 }
-
-
 

@@ -5,13 +5,13 @@ int main()
 
     double a = 1.3;
     double b = 1.7;
-    
+
     double *pa;
     double *pb;
 
     double tmp;
 
-    printf("ë°”ê¾¸ê¸° ì „ì˜ a, bì˜ ê°’ : %.1lf, %.1lf\n",a,b);
+    printf("¹Ù²Ù±â ÀüÀÇ a, bÀÇ °ª : %.1lf, %.1lf\n",a,b);
 
     pa = &a;
     pb = &b;
@@ -20,8 +20,7 @@ int main()
     *pa = *pb;
     *pb = tmp;
 
-    printf("ë°”ê¾¼ í›„ì˜ a, bì˜ ê°’ : %.1lf, %.1lf",a,b);
+    printf("¹Ù²Û ÈÄÀÇ a, bÀÇ °ª : %.1lf, %.1lf",a,b);
 
     return 0;
 }
-

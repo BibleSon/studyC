@@ -4,22 +4,22 @@ int main(void)
 {
     double a, b;
     char op;
-    printf("ìˆ˜ì‹ì„ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("¼ö½ÄÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf%c%lf", &a, &op, &b);
     switch (op)
     {
-    case '+':
-        printf("ì—°ì‚°ê²°ê³¼ëŠ” %.2fì…ë‹ˆë‹¤.\n", a + b);
-        break;
-    case '-':
-        printf("ì—°ì‚°ê²°ê³¼ëŠ” %.2fì…ë‹ˆë‹¤.\n", a - b);
-        break;
-    case '*':
-        printf("ì—°ì‚°ê²°ê³¼ëŠ” %.2fì…ë‹ˆë‹¤.\n", a * b);
-        break;
-    case '/':
-        printf("ì—°ì‚°ê²°ê³¼ëŠ” %.2fì…ë‹ˆë‹¤.\n", a / b);
-        break;
+        case '+':
+            printf("¿¬»ê°á°ú´Â %.2fÀÔ´Ï´Ù.\n", a + b);
+            break;
+        case '-':
+            printf("¿¬»ê°á°ú´Â %.2fÀÔ´Ï´Ù.\n", a - b);
+            break;
+        case '*':
+            printf("¿¬»ê°á°ú´Â %.2fÀÔ´Ï´Ù.\n", a * b);
+            break;
+        case '/':
+            printf("¿¬»ê°á°ú´Â %.2fÀÔ´Ï´Ù.\n", a / b);
+            break;
     }
     return 0;
 }

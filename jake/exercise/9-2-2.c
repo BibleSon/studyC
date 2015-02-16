@@ -14,7 +14,7 @@ int main(void)
 
     for (i = 0; i < 20; i++)
     {
-        printf("%d - %dê°œ\n", i + 1, count[i]);
+        printf("%d - %d°³\n", i + 1, count[i]);
     }
     return 0;
 }

@@ -3,7 +3,6 @@
 
 int main(void)
 {
-
     double a = 1.3;
     double b = 1.7;
 
@@ -14,8 +13,8 @@ int main(void)
     pa = &a;
     pb = &b;
 
-    printf("ë°”ê¾¸ê¸° ì „ì˜ a, bì˜ ê°’ : %.1lf %.1lf\n", a, b);
-    // paë‘ pbë§Œ ì‚¬ìš©í•´ì„œ aì™€ bì˜ ê°’ì„ ë°”ê¾¸ì–´ë¼
+    printf("¹Ù²Ù±â ÀüÀÇ a, bÀÇ °ª : %.1lf %.1lf\n", a, b);
+    // pa¶û pb¸¸ »ç¿ëÇØ¼­ a¿Í bÀÇ °ªÀ» ¹Ù²Ù¾î¶ó
 
     t = *pa;
     *pa = *pb;
@@ -23,7 +22,7 @@ int main(void)
 
     // process
 
-    printf("ë°”ê¾¼ í›„ì˜ a, bì˜ ê°’ : %.1lf %.1lf\n", a, b);
+    printf("¹Ù²Û ÈÄÀÇ a, bÀÇ °ª : %.1lf %.1lf\n", a, b);
     return 0;
 }
 

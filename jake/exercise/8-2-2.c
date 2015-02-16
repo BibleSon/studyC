@@ -8,8 +8,8 @@ double calc(double radius)
 int main(void)
 {
     double radius;
-    printf("ë°˜ì§€ë¦„ì„ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("¹İÁö¸§À» ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf", &radius);
-    printf("ë©´ì ì€ : %.3lfì…ë‹ˆë‹¤.\n", calc(radius));
+    printf("¸éÀûÀº : %.3lfÀÔ´Ï´Ù.\n", calc(radius));
     return 0;
 }

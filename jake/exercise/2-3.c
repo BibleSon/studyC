@@ -3,6 +3,6 @@ int main(void)
 {
 	int height=168, weight=48, cha;
 	cha = height - weight;
-	printf("í‚¤ : %dcm\nëª¸ë¬´ê²Œ : %dkg\ní‚¤ì—ì„œ ëª¸ë¬´ê²Œë¥¼ ëº€ ê°’ì€ %dì…ë‹ˆë‹¤.\n", height, weight, cha);
-	return 0;
+	printf("Å° : %dcm\n¸ö¹«°Ô : %dkg\nÅ°¿¡¼­ ¸ö¹«°Ô¸¦ »« °ªÀº %dÀÔ´Ï´Ù.\n", height, weight, cha);
+    return 0;
 }

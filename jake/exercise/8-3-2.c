@@ -15,11 +15,11 @@ int main(void)
 {
     double base;
     int exp;
-    printf("ë°‘ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("¹Ø¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf", &base);
-    printf("ì§€ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("Áö¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%d", &exp);
-    printf("ê±°ë“­ì œê³±ì€ %lfì…ë‹ˆë‹¤.\n", user_pow(base, exp));
+    printf("°ÅµìÁ¦°öÀº %lfÀÔ´Ï´Ù.\n", user_pow(base, exp));
     return 0;
 }
 

@@ -1,25 +1,24 @@
-
 #include <stdio.h>
 
 void res_disp(double val)
 {
-    printf("ê²°ê³¼ê°’ì€ %lfì…ë‹ˆë‹¤.\n", val);
+    printf("°á°ú°ªÀº %lfÀÔ´Ï´Ù.\n", val);
 }
 
 void menu_disp()
 {
-    printf("===============< ë©”ë‰´ >=================\n");
-    printf("1. ë§ì…ˆ(addition)\n");
-    printf("2. ëº„ì…ˆ(subtraction)\n");
-    printf("3. ê³±ì…ˆ(multipication)\n");
-    printf("4. ë‚˜ëˆ—ì…ˆ(division)\n");
-    printf(">> ì›í•˜ëŠ” ë©”ë‰´ë¥¼ ì„ íƒí•˜ì„¸ìš” : ");
+    printf("===============< ¸Ş´º >=================\n");
+    printf("1. µ¡¼À(addition)\n");
+    printf("2. »¬¼À(subtraction)\n");
+    printf("3. °ö¼À(multipication)\n");
+    printf("4. ³ª´°¼À(division)\n");
+    printf(">> ¿øÇÏ´Â ¸Ş´º¸¦ ¼±ÅÃÇÏ¼¼¿ä : ");
 }
 
 double add()
 {
     double a, b;
-    printf("ë‘ ê°œì˜ ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("µÎ °³ÀÇ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf%lf", &a, &b);
     return (a + b);
 }
@@ -27,7 +26,7 @@ double add()
 double sub()
 {
     double a, b;
-    printf("ë‘ ê°œì˜ ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("µÎ °³ÀÇ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf%lf", &a, &b);
     return (a - b);
 }
@@ -35,7 +34,7 @@ double sub()
 double mul()
 {
     double a, b;
-    printf("ë‘ ê°œì˜ ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("µÎ °³ÀÇ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf%lf", &a, &b);
     return (a * b);
 }
@@ -43,7 +42,7 @@ double mul()
 double div()
 {
     double a, b;
-    printf("ë‘ ê°œì˜ ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("µÎ °³ÀÇ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf%lf", &a, &b);
     return (a / b);
 }

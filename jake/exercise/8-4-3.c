@@ -2,7 +2,7 @@
 
 void res_disp(double val)
 {
-    printf("ê²°ê³¼ê°’ì€ %lfì…ë‹ˆë‹¤.\n", val);
+    printf("°á°ú°ªÀº %lfÀÔ´Ï´Ù.\n", val);
 }
 
 int main(void)

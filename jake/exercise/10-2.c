@@ -25,12 +25,11 @@ void line_up(double *pmax, double *pmid, double *pmin)
 int main()
 {
     double max, mid, min;
-
-    printf("ìˆ«ì ì„¸ ê°œë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("¼ıÀÚ ¼¼ °³¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%lf%lf%lf", &max, &mid, &min);
 
     line_up(&max, &mid, &min);
-    printf("í° ìˆ˜ë¶€í„° ì°¨ë¡€ë¡œ ì¶œë ¥í•˜ë©´ : %lf, %lf, %lf\n", max, mid, min);
+    printf("Å« ¼öºÎÅÍ Â÷·Ê·Î Ãâ·ÂÇÏ¸é : %lf, %lf, %lf\n", max, mid, min);
     return 0;
 }
 

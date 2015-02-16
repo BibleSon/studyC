@@ -4,7 +4,7 @@ int main(void)
 {
     char grade;
     int fee = -1;
-    printf("í•™ë…„ì„ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("ÇĞ³âÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%c", &grade);
     switch (grade) 
     {
@@ -19,12 +19,11 @@ int main(void)
             fee = 100 + 10;
             break;
         default:
-            printf("í•™ë…„ì„ ì˜ëª» ì…ë ¥í•˜ì˜€ìŠµë‹ˆë‹¤.\n");
+            printf("ÇĞ³âÀ» Àß¸ø ÀÔ·ÂÇÏ¿´½À´Ï´Ù.\n");
             break;
     }
     if (fee != -1) {
-        printf("ë“±ë¡ê¸ˆì€ %dë§Œì›ì…ë‹ˆë‹¤.\n", fee);
+        printf("µî·Ï±İÀº %d¸¸¿øÀÔ´Ï´Ù.\n", fee);
     }
     return 0;
 }
-

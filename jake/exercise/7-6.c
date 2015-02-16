@@ -4,10 +4,10 @@ int main(void)
 {
     int n = 0;
     int weight;
-    
+
     while(1)
     {
-        printf("ê³„ë€ì˜ ë¬´ê²Œë¥¼ ì…ë ¥í•˜ì„¸ìš”(ë‹¨ìœ„ : g) : ");
+        printf("°è¶õÀÇ ¹«°Ô¸¦ ÀÔ·ÂÇÏ¼¼¿ä(´ÜÀ§ : g) : ");
         scanf("%d", &weight);
         if (weight >= 300) {
             n++;
@@ -16,10 +16,10 @@ int main(void)
         }
 
         if (n == 30) {
-            printf("ê³„ë€ í•œ íŒì„ ëª¨ë‘ ë‹´ì•˜ìŠµë‹ˆë‹¤.!\n");
+            printf("°è¶õ ÇÑ ÆÇÀ» ¸ğµÎ ´ã¾Ò½À´Ï´Ù.!\n");
             break;
         } else {
-            printf("í˜„ì¬ ì™•ê³„ë€ì˜ ìˆ˜ : %d\n", n);
+            printf("ÇöÀç ¿Õ°è¶õÀÇ ¼ö : %d\n", n);
         }
     }
     return 0;

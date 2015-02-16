@@ -2,11 +2,11 @@
 
 void menu_disp()
 {
-    printf("===============< ë©”ë‰´ >=================\n");
-    printf("1. ë§ì…ˆ(addition)\n");
-    printf("2. ëº„ì…ˆ(subtraction)\n");
-    printf("3. ê³±ì…ˆ(multipication)\n");
-    printf("4. ë‚˜ëˆ—ì…ˆ(division)\n");
+    printf("===============< ¸Ş´º >=================\n");
+    printf("1. µ¡¼À(addition)\n");
+    printf("2. »¬¼À(subtraction)\n");
+    printf("3. °ö¼À(multipication)\n");
+    printf("4. ³ª´°¼À(division)\n");
 }
 
 int main(void)

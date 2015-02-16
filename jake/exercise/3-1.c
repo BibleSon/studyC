@@ -6,9 +6,9 @@ int main(void)
 	double kwpercharge = 88.5;
 	double tax = 0.09;
 	double charge;
-	printf("ì „ê¸° ì‚¬ìš©ëŸ‰ì„ ì…ë ¥í•˜ì„¸ìš”(kw) : ");
-	scanf("%d", &kw);
+	printf("Àü±â »ç¿ë·®À» ÀÔ·ÂÇÏ¼¼¿ä(kw) : ");
+    scanf("%d", &kw);
 	charge = (basecharge + (kw * kwpercharge)) * (1 + tax);
-	printf("ì „ê¸° ì‚¬ìš© ìš”ê¸ˆì€ %lfì›ì…ë‹ˆë‹¤.\n", charge);
+	printf("Àü±â »ç¿ë ¿ä±İÀº %lf¿øÀÔ´Ï´Ù.\n", charge);
 	return 0;
 }

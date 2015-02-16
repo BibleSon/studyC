@@ -3,14 +3,14 @@
 int main(void)
 {
     char ch;
-    printf("ë¬¸ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("¹®ÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
     scanf("%c", &ch);
     if (ch == 'm') {
-        printf("ë‚¨ìì…ë‹ˆë‹¤.\n");
+        printf("³²ÀÚÀÔ´Ï´Ù.\n");
     } else if (ch == 'f') {
-        printf("ì—¬ìì…ë‹ˆë‹¤.\n");
+        printf("¿©ÀÚÀÔ´Ï´Ù.\n");
     } else {
-        printf("ì˜ëª» ì…ë ¥í•˜ì˜€ìŠµë‹ˆë‹¤.\n");
+        printf("Àß¸ø ÀÔ·ÂÇÏ¿´½À´Ï´Ù.\n");
     }
     return 0;
 }

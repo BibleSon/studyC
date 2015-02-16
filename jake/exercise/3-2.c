@@ -5,13 +5,13 @@ int main(void)
 	double bat;
 	int age;
 	
-	printf("ë“±ë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
-	scanf("%c", &num);
-	printf("íƒ€ìœ¨ì„ ì…ë ¥í•˜ì„¸ìš” : ");
-	scanf("%lf", &bat);
-	printf("ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+	printf("µî¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+    scanf("%c", &num);
+	printf("Å¸À²À» ÀÔ·ÂÇÏ¼¼¿ä : ");
+    scanf("%lf", &bat);
+	printf("³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
 	scanf("%d", &age);
-	printf("%cë²ˆ ì„ ìˆ˜ì˜ íƒ€ìœ¨ì€ %lfì´ê³  ë‚˜ì´ëŠ” %dì‚´ì…ë‹ˆë‹¤.\n", num, bat, age);
+	printf("%c¹ø ¼±¼öÀÇ Å¸À²Àº %lfÀÌ°í ³ªÀÌ´Â %d»ìÀÔ´Ï´Ù.\n", num, bat, age);
 	return 0;
 }
 
